@@ -43,7 +43,7 @@ def frequency_analysis():
     input_first_letter = input_frequencies[0]
 
     for i in frequencies:
-        delta = ord(i[0]) - ord(input_first_letter[0])
+        delta = ord(input_first_letter[0]) - ord(i[0])
         check_with_shift(delta)
         if result.percentage == 100:
             break
