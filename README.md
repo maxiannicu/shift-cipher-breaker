@@ -1,12 +1,15 @@
 # Shift cipher breaker
 
-## Methods
+## About
 
+This breaker is a flexible as it depends upon a dictionary and not a language.
 There is a dictionary with data in file `words_dictionary.json`. This dictionary is used in both methods for decryption. This dictionary can be replaced to be in different language.
+
+## Methods
 
 ### Simple Dictionary attack
 
-This method step by step shifts with one character to the right. After creating new message, it is checked how many words existins in our dictionary. In case we have 100% words matching our dictionary, we stop searching for solution.
+This method step by step shifts with one character to the right. After creating new message, it is checked how many words exists in our dictionary. In case we have 100% of words, matching our dictionary, we stop searching for solution.
 
 ### Frequency analysis
 
